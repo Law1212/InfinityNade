@@ -91,6 +91,25 @@ nav {
     margin-top: 25px;
 }
 
+.dropdown-lang {
+    margin-right: 1%;
+}
+
+.dropdown-content-lang {
+    display: none;
+    position: absolute;
+    background-color: #1f1e22;
+    border: 1px black solid;
+    /*min-width: 160px;*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+  
+.dropdown-lang:hover .dropdown-content-lang {
+    display: block;
+}
+
 /* Body */
 
 body {
@@ -1716,6 +1735,9 @@ footer h2 {
     nav {
         padding: 0 10px;
     }
+    .dropdown-lang {
+        margin-right: 4%;
+    }
     #main-yellow-logo {
         width: 60px;
     }
@@ -1834,6 +1856,9 @@ footer h2 {
         and (max-width: 300px) {
     nav {
         padding: 0 5px;
+    }
+    .dropdown-lang {
+        margin-right: 6%;
     }
     #main-yellow-logo {
         width: 50px;
