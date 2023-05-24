@@ -490,10 +490,6 @@ iframe {
     border-bottom: 4px black solid;
 }
 
-.right-grid img{
-    filter: grayscale(100%);
-}
-
 .right-grid h2 {
     display: inline-block;
     text-shadow: 3px 3px black;
@@ -2065,3 +2061,4 @@ footer h2 {
         and (max-width: 100px) {
    
 }  
+/**/
